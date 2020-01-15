@@ -2,7 +2,7 @@
 
 dev-competition-mumbai
 ```bash
-gcloud compute ssh dev-competition-mumbai --zone asia-south1-a --project bitgrit-competition-platform
+gcloud compute ssh --project bitgrit-competition-platform --zone asia-south1-a dev-competition-mumbai
 ```
 > just change the name and zone
 
