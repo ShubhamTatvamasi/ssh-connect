@@ -60,7 +60,7 @@ gcloud compute ssh --project bitgrit-competition-platform --zone asia-south1-a v
 
 test-nginx
 ```bash
-gcloud compute ssh --project bitgrit-competition-platform --zone asia-south1-a test-nginx
+gcloud compute ssh --project bitgrit-competition-platform --zone asia-southeast1-a test-nginx
 ```
 
 > just change the name and zone
