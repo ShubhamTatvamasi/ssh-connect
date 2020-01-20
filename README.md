@@ -6,6 +6,16 @@ sudo usermod -aG docker $USER
 ```
 ---
 
+```bash
+alias ssh-qa='gcloud compute ssh --project bitgrit-competition-platform --zone asia-south1-a qa-mumbai'
+alias ssh-dev='gcloud compute ssh --project bitgrit-competition-platform --zone asia-south1-a dev-competition-mumbai'
+alias ssh-test='gcloud compute ssh --project bitgrit-competition-platform --zone asia-south1-a test-competition-mumbai'
+alias ssh-stag='gcloud compute ssh --project bitgrit-competition-platform --zone asia-south1-a staging-competition-mumbai'
+alias ssh-prod='gcloud compute ssh --project bitgrit-competition-platform --zone asia-south1-a production-competition-mumbai'
+alias ssh-nginx='gcloud compute ssh --project bitgrit-competition-platform --zone asia-south1-a nginx'
+```
+
+
 qa-mumbai
 ```bash
 gcloud compute ssh --project bitgrit-competition-platform --zone asia-south1-a qa-mumbai
