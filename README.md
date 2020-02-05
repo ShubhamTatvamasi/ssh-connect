@@ -18,6 +18,7 @@ alias ssh-jenkins='gcloud compute ssh --project bitgrit-competition-platform --z
 alias ssh-vault='gcloud compute ssh --project bitgrit-competition-platform --zone asia-south1-a vault'
 alias ssh-test-nginx='gcloud compute ssh --project bitgrit-competition-platform --zone asia-southeast1-a test-nginx'
 alias ssh-openvpn='gcloud compute ssh --project bitgrit-competition-platform --zone asia-south1-a openvpn-mumbai'
+alias ssh-nagaoka='gcloud compute ssh --project bitgrit-competition-platform --zone asia-south1-a nagaoka-competition-mumbai'
 ```
 
 qa-mumbai
